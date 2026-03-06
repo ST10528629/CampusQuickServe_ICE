@@ -1,14 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package order;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-/**
- *
- * @author lab_services_student
- */
+
 public class Order {
-    
+    public static final double VAT = 0.15;
+    public static final double STUDENT_DISCOUNT = 0.1;
+
+private String customerName;
+private String studentID;
+private String selectedOrder;
+private int    quantity;
+private double pricePerItem;
 }
