@@ -11,9 +11,17 @@ import javax.swing.JOptionPane;
 public class QuickServeApp {
  
     public static void main(String[] args) {
+        ///User Inputs
+      
+
        String customerName = JOptionPane.showInputDialog(null, "please enter your name");
        String studentId = JOptionPane.showInputDialog(null, "please enter your student ID");
-       String itemID = JOptionPane.showInputDialog(null, "Please enter item ordered");
+       String selectedOrder = JOptionPane.showInputDialog(null, "Enter selected item");
+       
+       int quantity = 0;
+       double pricePerItem = 0.0;
+       Boolean CorrentInput = false;
+       
     }
     
 }
