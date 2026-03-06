@@ -3,18 +3,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package quickserveapp;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+        import order.Order;
 
-/**
- *
- * @author lab_services_student
- */
+        
 public class QuickServeApp {
-
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
-        // TODO code application logic here
+       String customerName = JOptionPane.showInputDialog(null, "please enter your name");
+       String studentId = JOptionPane.showInputDialog(null, "please enter your student ID");
+       String itemID = JOptionPane.showInputDialog(null, "Please enter item ordered");
     }
     
 }
